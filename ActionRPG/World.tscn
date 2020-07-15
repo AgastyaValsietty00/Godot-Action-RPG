@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Action RPG Resources/Action RPG Resources/World/bush.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Action RPG Resources/Action RPG Resources/Player/Player.tscn" type="PackedScene" id=2]
+
+[node name="World" type="YSort"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160.772, 65.6025 )
+
+[node name="Node2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 92.5797, 59.7018 )
+
+[node name="Node2D2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 90.2816, 96.1178 )
